@@ -11,7 +11,13 @@ const todoRoutes = require('./routes/todos');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://todo-ohtd7gwkg-chandrika-kantipudis-projects.vercel.app",
+  })
+);
+
+
 app.use(express.json());
 
 // Connect to MongoDB
