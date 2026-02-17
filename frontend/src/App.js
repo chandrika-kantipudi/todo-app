@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 // The URL of our backend API
-const API_URL = 'http://localhost:5000/api/todos';
+const API_URL = 'https://todo-app-117y.onrender.com/api/todos';
+
 
 function App() {
   // State - think of these as variables that React watches
