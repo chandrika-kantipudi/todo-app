@@ -11,11 +11,8 @@ const todoRoutes = require('./routes/todos');
 const app = express();
 
 // Middleware
-app.use(
-  cors({
-    origin: "https://todo-ohtd7gwkg-chandrika-kantipudis-projects.vercel.app",
-  })
-);
+app.use(cors());
+
 
 
 app.use(express.json());
